@@ -28,8 +28,7 @@ body {
 }
 
 .calendar {
-  width: calc(7 * #{$day-total-size} + 6 * #{$spacing} + 10px);
-  padding: 5px;
+  padding: 10px;
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -38,7 +37,6 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    padding: 0 $spacing;
     font-weight: bold;
     color: #333;
   }
